@@ -1,0 +1,1070 @@
+Script started on 2023-11-21 16:49:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="102" LINES="46"]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 167964 13144 ?        Ss   10:02   0:03 /sbin/init auto noprompt splash
+root           2  0.0  0.0      0     0 ?        S    10:02   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:02   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:02   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   10:02   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   10:02   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   10:02   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    10:02   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    10:02   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    10:02   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    10:02   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    10:02   0:05 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    10:02   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    10:02   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    10:02   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    10:02   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    10:02   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    10:02   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    10:02   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    10:02   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    10:02   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    10:02   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    10:02   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        S    10:02   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    10:02   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    10:02   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    10:02   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    10:02   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I<   10:02   0:00 [inet_frag_wq]
+root          40  0.0  0.0      0     0 ?        S    10:02   0:00 [kauditd]
+root          42  0.0  0.0      0     0 ?        S    10:02   0:00 [khungtaskd]
+root          44  0.0  0.0      0     0 ?        S    10:02   0:00 [oom_reaper]
+root          46  0.0  0.0      0     0 ?        I<   10:02   0:00 [writeback]
+root          47  0.0  0.0      0     0 ?        S    10:02   0:00 [kcompactd0]
+root          48  0.0  0.0      0     0 ?        SN   10:02   0:00 [ksmd]
+root          49  0.0  0.0      0     0 ?        SN   10:02   0:00 [khugepaged]
+root          50  0.0  0.0      0     0 ?        I<   10:02   0:00 [kintegrityd]
+root          51  0.0  0.0      0     0 ?        I<   10:02   0:00 [kblockd]
+root          52  0.0  0.0      0     0 ?        I<   10:02   0:00 [blkcg_punt_bio]
+root          53  0.0  0.0      0     0 ?        I<   10:02   0:00 [tpm_dev_wq]
+root          54  0.0  0.0      0     0 ?        I<   10:02   0:00 [ata_sff]
+root          55  0.0  0.0      0     0 ?        I<   10:02   0:00 [md]
+root          56  0.0  0.0      0     0 ?        I<   10:02   0:00 [edac-poller]
+root          57  0.0  0.0      0     0 ?        I<   10:02   0:00 [devfreq_wq]
+root          58  0.0  0.0      0     0 ?        S    10:02   0:00 [watchdogd]
+root          60  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/3:1H-kblockd]
+root          61  0.0  0.0      0     0 ?        S    10:02   0:00 [kswapd0]
+root          62  0.0  0.0      0     0 ?        S    10:02   0:00 [ecryptfs-kthread]
+root          63  0.0  0.0      0     0 ?        I<   10:02   0:00 [kthrotld]
+root          64  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/24-pciehp]
+root          65  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/25-pciehp]
+root          66  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/26-pciehp]
+root          67  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/27-pciehp]
+root          68  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/28-pciehp]
+root          69  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/29-pciehp]
+root          70  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/30-pciehp]
+root          71  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/31-pciehp]
+root          72  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/32-pciehp]
+root          73  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/33-pciehp]
+root          74  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/34-pciehp]
+root          75  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/35-pciehp]
+root          76  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/36-pciehp]
+root          77  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/37-pciehp]
+root          78  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/38-pciehp]
+root          79  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/39-pciehp]
+root          80  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/40-pciehp]
+root          81  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/41-pciehp]
+root          82  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/42-pciehp]
+root          83  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/43-pciehp]
+root          84  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/44-pciehp]
+root          85  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/45-pciehp]
+root          86  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/46-pciehp]
+root          87  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/47-pciehp]
+root          88  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/48-pciehp]
+root          89  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/49-pciehp]
+root          90  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/50-pciehp]
+root          91  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/51-pciehp]
+root          92  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/52-pciehp]
+root          93  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/53-pciehp]
+root          94  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/54-pciehp]
+root          95  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/55-pciehp]
+root          96  0.0  0.0      0     0 ?        I<   10:02   0:00 [acpi_thermal_pm]
+root          97  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_1]
+root         100  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_1]
+root         105  0.0  0.0      0     0 ?        I<   10:02   0:00 [mld]
+root         106  0.0  0.0      0     0 ?        I<   10:02   0:00 [ipv6_addrconf]
+root         114  0.0  0.0      0     0 ?        I<   10:02   0:00 [kstrp]
+root         118  0.0  0.0      0     0 ?        I<   10:02   0:00 [zswap-shrink]
+root         119  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/u257:0]
+root         123  0.0  0.0      0     0 ?        I<   10:02   0:00 [charger_manager]
+root         143  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/0:1H-kblockd]
+root         149  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/1:1H-kblockd]
+root         162  0.0  0.0      0     0 ?        I<   10:02   0:00 [kworker/2:1H-kblockd]
+root         175  0.0  0.0      0     0 ?        I<   10:02   0:00 [mpt_poll_0]
+root         176  0.0  0.0      0     0 ?        I<   10:02   0:00 [mpt/0]
+root         177  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_2]
+root         178  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_2]
+root         179  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_3]
+root         180  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_3]
+root         181  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_4]
+root         182  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_4]
+root         183  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_5]
+root         184  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_5]
+root         185  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_6]
+root         186  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_6]
+root         187  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_7]
+root         188  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_7]
+root         189  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_8]
+root         190  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_8]
+root         191  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_9]
+root         192  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_9]
+root         193  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_10]
+root         194  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_10]
+root         195  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_11]
+root         196  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_11]
+root         197  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_12]
+root         198  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_12]
+root         199  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_13]
+root         200  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_13]
+root         201  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_14]
+root         202  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_14]
+root         203  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_15]
+root         204  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_15]
+root         205  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_16]
+root         206  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_16]
+root         207  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_17]
+root         208  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_17]
+root         209  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_18]
+root         210  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_18]
+root         211  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_19]
+root         212  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_19]
+root         213  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_20]
+root         214  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_20]
+root         215  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_21]
+root         216  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_21]
+root         217  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_22]
+root         218  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_22]
+root         219  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_23]
+root         220  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_23]
+root         221  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_24]
+root         222  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_24]
+root         223  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_25]
+root         224  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_25]
+root         225  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_26]
+root         226  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_26]
+root         227  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_27]
+root         228  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_27]
+root         229  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_28]
+root         230  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_28]
+root         231  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_29]
+root         232  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_29]
+root         233  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_30]
+root         234  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_30]
+root         235  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_31]
+root         236  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_31]
+root         265  0.0  0.0      0     0 ?        S    10:02   0:00 [scsi_eh_32]
+root         266  0.0  0.0      0     0 ?        I<   10:02   0:00 [scsi_tmf_32]
+root         293  0.0  0.0      0     0 ?        S    10:02   0:01 [jbd2/sda3-8]
+root         294  0.0  0.0      0     0 ?        I<   10:02   0:00 [ext4-rsv-conver]
+root         333  0.0  0.1  64620 23604 ?        S<s  10:02   0:01 /lib/systemd/systemd-journald
+root         370  0.0  0.0 152560  1292 ?        Ssl  10:02   0:00 vmware-vmblock-fuse /run/vmblock-fu
+root         392  0.0  0.0  27144  7168 ?        Ss   10:02   0:00 /lib/systemd/systemd-udevd
+root         394  0.0  0.0      0     0 ?        S    10:02   0:06 [irq/16-vmwgfx]
+root         559  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/57-vmw_vmci]
+root         562  0.0  0.0      0     0 ?        S    10:02   0:00 [irq/58-vmw_vmci]
+systemd+     640  0.0  0.0  14828  6784 ?        Ss   10:02   0:22 /lib/systemd/systemd-oomd
+systemd+     644  0.0  0.0  25664 14044 ?        Ss   10:02   0:00 /lib/systemd/systemd-resolved
+systemd+     647  0.0  0.0  89380  7296 ?        Ssl  10:02   0:00 /lib/systemd/systemd-timesyncd
+root         670  0.0  0.0      0     0 ?        I<   10:02   0:00 [cryptd]
+root         672  0.0  0.0  53744 12160 ?        Ss   10:02   0:00 /usr/bin/VGAuthService
+root         674  0.0  0.0 243640  9088 ?        Ssl  10:02   0:23 /usr/bin/vmtoolsd
+root         787  0.0  0.0 239908  7616 ?        Ssl  10:02   0:00 /usr/libexec/accounts-daemon
+root         788  0.0  0.0   2812  2048 ?        Ss   10:02   0:00 /usr/sbin/acpid
+avahi        793  0.0  0.0   7628  4096 ?        Ss   10:02   0:01 avahi-daemon: running [razrs.local]
+root         794  0.0  0.0   9496  2816 ?        Ss   10:02   0:00 /usr/sbin/cron -f -P
+message+     796  0.0  0.0  11000  6400 ?        Ss   10:02   0:01 @dbus-daemon --system --address=sys
+root         798  0.0  0.1 260952 18508 ?        Ssl  10:02   0:01 /usr/sbin/NetworkManager --no-daemo
+root         814  0.0  0.0  82832  4096 ?        Ssl  10:02   0:00 /usr/sbin/irqbalance --foreground
+root         817  0.0  0.1  41060 21248 ?        Ss   10:02   0:00 /usr/bin/python3 /usr/bin/networkd-
+root         818  0.0  0.0 242540 10560 ?        Ssl  10:02   0:00 /usr/libexec/polkitd --no-debug
+root         825  0.0  0.0 240088  7424 ?        Ssl  10:02   0:00 /usr/libexec/power-profiles-daemon
+syslog       826  0.0  0.0 222400  5760 ?        Ssl  10:02   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         829  0.0  0.0 236588  7040 ?        Ssl  10:02   0:00 /usr/libexec/switcheroo-control
+root         830  0.0  0.0  15452  7944 ?        Ss   10:02   0:00 /lib/systemd/systemd-logind
+root         833  0.0  0.0 393152 13628 ?        Ssl  10:02   0:00 /usr/libexec/udisks2/udisksd
+root         839  0.0  0.0  16496  6656 ?        Ss   10:02   0:00 /sbin/wpa_supplicant -u -s -O /run/
+avahi        849  0.0  0.0   7440  1280 ?        S    10:02   0:00 avahi-daemon: chroot helper
+root         914  0.0  0.0 317964 12612 ?        Ssl  10:02   0:00 /usr/sbin/ModemManager
+root         938  0.0  0.0  73012 13952 ?        Ss   10:02   0:00 /usr/sbin/cupsd -l
+root         972  0.0  0.1 118160 23808 ?        Ssl  10:02   0:00 /usr/bin/python3 /usr/share/unatten
+root         992  0.0  0.0 241236  9088 ?        Ssl  10:02   0:00 /usr/sbin/gdm3
+root        1020  0.0  0.0 317920 11008 ?        Sl   10:02   0:00 gdm-session-worker [pam/gdm-autolog
+razrs       1104  0.0  0.0  18740 11332 ?        Ss   10:02   0:00 /lib/systemd/systemd --user
+razrs       1119  0.0  0.0 104224  5408 ?        S    10:02   0:00 (sd-pam)
+root        1238  0.0  0.0 172620 11008 ?        Ssl  10:02   0:00 /usr/sbin/cups-browsed
+razrs       1241  0.0  0.0  39572  6400 ?        S<sl 10:02   0:00 /usr/bin/pipewire
+razrs       1242  0.0  0.0  23460  6272 ?        Ssl  10:02   0:00 /usr/bin/pipewire-media-session
+kernoops    1243  0.0  0.0  13084  2208 ?        Ss   10:02   0:00 /usr/sbin/kerneloops --test
+razrs       1249  0.0  0.1 2021972 29016 ?       S<sl 10:02   0:08 /usr/bin/pulseaudio --daemonize=no 
+razrs       1250  0.0  0.0  76148 13952 ?        Ss   10:02   0:00 /snap/snapd-desktop-integration/83/
+kernoops    1259  0.0  0.0  13084  2196 ?        Ss   10:02   0:00 /usr/sbin/kerneloops
+rtkit       1260  0.0  0.0 154000  3328 ?        SNsl 10:02   0:00 /usr/libexec/rtkit-daemon
+razrs       1265  0.0  0.0 388372  8220 ?        SLl  10:02   0:00 /usr/bin/gnome-keyring-daemon --dae
+razrs       1279  0.0  0.0 162388  6272 tty2     Ssl+ 10:02   0:00 /usr/libexec/gdm-wayland-session en
+razrs       1283  0.0  0.0  12124  8212 ?        Ss   10:02   0:01 /usr/bin/dbus-daemon --session --ad
+razrs       1299  0.0  0.0 223040 15744 tty2     Sl+  10:02   0:00 /usr/libexec/gnome-session-binary -
+razrs       1300  0.0  0.0 240756  7808 ?        Ssl  10:02   0:00 /usr/libexec/gvfsd
+razrs       1329  0.0  0.0 380888  6784 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-fuse /run/user/1
+razrs       1360  0.0  0.0  91908  5632 ?        Ssl  10:02   0:00 /usr/libexec/gnome-session-ctl --mo
+razrs       1377  0.0  0.1 593004 17280 ?        Ssl  10:02   0:00 /usr/libexec/gnome-session-binary -
+razrs       1398  0.0  0.0 309612  7680 ?        Sl   10:02   0:00 /usr/libexec/at-spi-bus-launcher --
+razrs       1399  0.9  2.1 4830724 349916 ?      Ssl  10:02   3:59 /usr/bin/gnome-shell
+razrs       1409  0.0  0.0   8560  4480 ?        S    10:02   0:00 /usr/bin/dbus-daemon --config-file=
+razrs       1495  0.0  0.0 610636  7296 ?        Ssl  10:02   0:00 /usr/libexec/xdg-document-portal
+razrs       1498  0.0  0.0 236152  6272 ?        Ssl  10:02   0:00 /usr/libexec/xdg-permission-store
+root        1504  0.0  0.0   2792  1792 ?        Ss   10:02   0:00 fusermount3 -o rw,nosuid,nodev,fsna
+razrs       1521  0.0  0.1 583056 21120 ?        Sl   10:02   0:00 /usr/libexec/gnome-shell-calendar-s
+razrs       1527  0.0  0.1 1072200 25984 ?       Ssl  10:02   0:00 /usr/libexec/evolution-source-regis
+root        1528  0.0  0.0 242216  8576 ?        Ssl  10:02   0:00 /usr/libexec/upowerd
+razrs       1543  0.0  0.2 578328 40576 ?        Sl   10:02   0:00 /usr/libexec/goa-daemon
+razrs       1550  0.0  0.0 389748 10624 ?        Ssl  10:02   0:00 /usr/libexec/gvfs-udisks2-volume-mo
+razrs       1557  0.0  0.1 840496 30976 ?        Ssl  10:02   0:00 /usr/libexec/evolution-calendar-fac
+razrs       1569  0.0  0.0 338400 14976 ?        Sl   10:02   0:00 /usr/libexec/goa-identity-service
+razrs       1572  0.0  0.0 236460  6656 ?        Ssl  10:02   0:00 /usr/libexec/gvfs-mtp-volume-monito
+razrs       1582  0.0  0.0 236644  6656 ?        Ssl  10:02   0:00 /usr/libexec/gvfs-goa-volume-monito
+razrs       1588  0.0  0.0 157080  5888 ?        Ssl  10:02   0:00 /usr/libexec/dconf-service
+razrs       1592  0.0  0.0 237552  7040 ?        Ssl  10:02   0:00 /usr/libexec/gvfs-gphoto2-volume-mo
+razrs       1596  0.0  0.1 672236 28672 ?        Ssl  10:02   0:00 /usr/libexec/evolution-addressbook-
+razrs       1600  0.0  0.0 315216  8064 ?        Ssl  10:02   0:01 /usr/libexec/gvfs-afc-volume-monito
+root        1615  0.0  0.2 373248 39420 ?        Ssl  10:02   0:03 /usr/libexec/packagekitd
+razrs       1632  0.0  0.0 315128  9088 ?        Sl   10:02   0:00 /usr/libexec/gvfsd-trash --spawner 
+razrs       1647  0.0  0.1 2603596 28080 ?       Sl   10:02   0:00 /usr/bin/gjs /usr/share/gnome-shell
+razrs       1648  0.0  0.0 162680  7680 ?        Sl   10:02   0:00 /usr/libexec/at-spi2-registryd --us
+razrs       1661  0.0  0.0   2888  1664 ?        Ss   10:02   0:00 sh -c /usr/bin/ibus-daemon --panel 
+razrs       1662  0.0  0.0 310420  7040 ?        Ssl  10:02   0:00 /usr/libexec/gsd-a11y-settings
+razrs       1664  0.0  0.1 451224 25860 ?        Ssl  10:02   0:00 /usr/libexec/gsd-color
+razrs       1665  0.0  0.1 375460 16384 ?        Ssl  10:02   0:00 /usr/libexec/gsd-datetime
+razrs       1666  0.0  0.0 311916  8192 ?        Ssl  10:02   0:00 /usr/libexec/gsd-housekeeping
+razrs       1668  0.0  0.0 315124 11940 ?        Sl   10:02   0:18 /usr/bin/ibus-daemon --panel disabl
+razrs       1669  0.0  0.1 340588 22232 ?        Ssl  10:02   0:00 /usr/libexec/gsd-keyboard
+razrs       1670  0.0  0.1 642964 27136 ?        Ssl  10:02   0:00 /usr/libexec/gsd-media-keys
+razrs       1676  0.0  0.1 376828 25860 ?        Ssl  10:02   0:00 /usr/libexec/gsd-power
+razrs       1677  0.0  0.0 249852 11520 ?        Ssl  10:02   0:00 /usr/libexec/gsd-print-notification
+razrs       1678  0.0  0.0 457856  6912 ?        Ssl  10:02   0:00 /usr/libexec/gsd-rfkill
+razrs       1679  0.0  0.0 236288  6272 ?        Ssl  10:02   0:00 /usr/libexec/gsd-screensaver-proxy
+razrs       1681  0.0  0.0 465940 10752 ?        Ssl  10:02   0:00 /usr/libexec/gsd-sharing
+razrs       1686  0.0  0.0 386028  8320 ?        Ssl  10:02   0:00 /usr/libexec/gsd-smartcard
+razrs       1687  0.0  0.0 319332  9728 ?        Ssl  10:02   0:00 /usr/libexec/gsd-sound
+razrs       1692  0.0  0.1 414884 22516 ?        Ssl  10:02   0:00 /usr/libexec/gsd-wacom
+razrs       1744  0.0  0.0 237304  7424 ?        Sl   10:02   0:00 /usr/libexec/ibus-dconf
+razrs       1754  0.0  0.1 347800 29244 ?        Sl   10:02   0:02 /usr/libexec/ibus-extension-gtk3
+razrs       1758  0.0  0.0 237272  7552 ?        Sl   10:02   0:00 /usr/libexec/ibus-portal
+razrs       1761  0.0  0.4 827372 66692 ?        Sl   10:02   0:00 /usr/libexec/evolution-data-server/
+razrs       1774  0.0  0.0 232272  7808 ?        Sl   10:02   0:00 /usr/libexec/gsd-disk-utility-notif
+razrs       1783  0.1  0.3 643160 59368 ?        Sl   10:02   0:26 /usr/bin/vmtoolsd -n vmusr --blockF
+razrs       1787  0.0  0.0 342356 15104 ?        Sl   10:02   0:00 /usr/libexec/gsd-printer
+razrs       1847  0.0  0.0 163892  7936 ?        Sl   10:02   0:06 /usr/libexec/ibus-engine-simple
+razrs       1848  0.0  0.0 163064  6528 ?        Ssl  10:02   0:00 /usr/libexec/gvfsd-metadata
+razrs       1880  0.0  0.0 754864 14464 ?        Ssl  10:02   0:00 /usr/libexec/xdg-desktop-portal
+razrs       1891  0.0  0.1 662880 28944 ?        Ssl  10:02   0:00 /usr/libexec/xdg-desktop-portal-gno
+razrs       1901  0.3  0.6 318992 104704 ?       S    10:02   1:29 /usr/bin/Xwayland :0 -rootless -nor
+razrs       1902  0.0  0.1 305940 22084 ?        Sl   10:02   0:00 /snap/snapd-desktop-integration/83/
+colord      1907  0.0  0.0 245380 13088 ?        Ssl  10:02   0:00 /usr/libexec/colord
+razrs       1920  0.0  0.1 707172 27812 ?        SNsl 10:02   0:01 /usr/libexec/tracker-miner-fs-3
+razrs       1954  0.0  0.1 2603596 28260 ?       Sl   10:02   0:00 /usr/bin/gjs /usr/share/gnome-shell
+razrs       1973  0.0  0.4 545108 79668 ?        Ssl  10:02   0:00 /usr/libexec/gsd-xsettings
+razrs       1977  0.0  0.1 344492 25988 ?        Ssl  10:02   0:00 /usr/libexec/xdg-desktop-portal-gtk
+root        2015  0.0  0.0 240004  7712 ?        Ssl  10:02   0:00 /usr/libexec/ubuntu-advantage-deskt
+razrs       2048  0.0  0.1 194196 24884 ?        Sl   10:02   0:00 /usr/libexec/ibus-x11
+razrs       2393  0.0  0.1 794648 27008 ?        Sl   10:03   0:00 /usr/bin/snap userd
+razrs       2954  0.0  0.1 418932 27580 ?        Sl   10:03   0:00 update-notifier
+razrs       3728  0.0  0.0   7972  5632 ?        S    10:21   0:00 /usr/bin/ssh-agent -D -a /run/user/
+root        4445  0.0  0.0      0     0 ?        I<   10:38   0:00 [tls-strp]
+razrs       4844  0.0  1.3 1197768 221992 ?      Sl   10:41   0:14 /snap/snap-store/959/usr/bin/snap-s
+root        6763  0.0  0.2  63060 40684 ?        S    10:42   0:00 python3 /usr/lib/software-propertie
+razrs       7239  0.2  0.4 572316 69384 ?        Rsl  10:43   0:56 /usr/libexec/gnome-terminal-server
+razrs       7289  1.3  2.7 11963656 457268 ?     Sl   10:46   4:59 /snap/firefox/3358/usr/lib/firefox/
+razrs       7545  0.0  0.2 204748 38912 ?        Sl   10:46   0:00 /snap/firefox/3358/usr/lib/firefox/
+razrs       7562  0.0  0.8 2525596 144496 ?      Sl   10:46   0:03 /snap/firefox/3358/usr/lib/firefox/
+razrs       7588  0.0  0.8 2460796 136188 ?      Sl   10:46   0:03 /snap/firefox/3358/usr/lib/firefox/
+razrs       8009  0.0  0.2 203328 34560 ?        Sl   10:46   0:00 /snap/firefox/3358/usr/lib/firefox/
+razrs       8037  2.7  2.2 2738328 361168 ?      Sl   10:46   9:55 /snap/firefox/3358/usr/lib/firefox/
+root       10066  0.0  0.0   6776  4592 ?        Ss   11:26   0:00 /usr/sbin/apache2 -k start
+www-data   10067  0.0  0.0 1932640 4724 ?        Sl   11:26   0:00 /usr/sbin/apache2 -k start
+www-data   10068  0.0  0.0 1998176 4596 ?        Sl   11:26   0:00 /usr/sbin/apache2 -k start
+www-data   10179  0.0  0.0   3736  1412 ?        Ss   11:26   0:00 /usr/bin/htcacheclean -d 120 -p /va
+razrs      12400  0.0  0.0  21132 15520 pts/1    Ss   13:44   0:01 bash
+razrs      12443  0.0  0.3 2380968 62848 ?       Sl   13:45   0:00 /snap/firefox/3358/usr/lib/firefox/
+razrs      12446  0.0  0.3 2380964 63360 ?       Sl   13:45   0:00 /snap/firefox/3358/usr/lib/firefox/
+razrs      12484  0.0  0.3 2380968 62712 ?       Sl   13:45   0:00 /snap/firefox/3358/usr/lib/firefox/
+razrs      13079  0.0  0.0 388720  9216 ?        Sl   13:47   0:00 /usr/libexec/gvfsd-network --spawne
+razrs      13097  0.0  0.0 316824  9088 ?        Sl   13:47   0:00 /usr/libexec/gvfsd-dnssd --spawner 
+root       13793  0.0  0.0      0     0 ?        I<   14:12   0:00 [kworker/2:0H-kblockd]
+root       13842  0.0  0.1 1467620 31736 ?       Ssl  14:12   0:01 /usr/lib/snapd/snapd
+root       15217  0.0  0.0      0     0 ?        I    15:31   0:00 [kworker/u256:3-events_power_effici
+razrs      15381  0.0  0.4 2873364 70564 ?       Sl   15:58   0:00 gjs /usr/share/gnome-shell/extensio
+root       15744  0.0  0.0      0     0 ?        I    16:10   0:00 [kworker/1:0-cgwb_release]
+root       15992  0.0  0.0      0     0 ?        I    16:27   0:00 [kworker/u256:2-events_power_effici
+root       16030  0.0  0.0      0     0 ?        I    16:27   0:00 [kworker/3:1-cgroup_destroy]
+root       16035  0.0  0.0      0     0 ?        I    16:27   0:00 [kworker/2:1-events]
+root       16048  0.0  0.0      0     0 ?        I    16:27   0:00 [kworker/1:2-events]
+razrs      16083  0.2  0.5 1005264 81812 ?       Sl   16:29   0:02 /usr/bin/nautilus --gapplication-se
+razrs      16144  0.0  0.0 314896  8704 ?        Sl   16:30   0:00 /usr/libexec/gvfsd-recent --spawner
+root       16226  0.0  0.0      0     0 ?        I    16:35   0:00 [kworker/2:2-rcu_par_gp]
+root       16299  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/0:1-events]
+root       16301  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/0:3-events]
+root       16304  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/u256:0-events_unbound]
+root       16308  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/3:0-events]
+root       16408  0.0  0.0      0     0 ?        R    16:49   0:00 [kworker/u256:1+events_unbound]
+razrs      16415  0.0  0.0   8388  2304 pts/1    S+   16:49   0:00 script -c ps aux && ps -u $USER && 
+razrs      16416  0.0  0.0   9972  3584 pts/0    Ss+  16:49   0:00 bash -c ps aux && ps -u $USER && to
+razrs      16418  0.0  0.0   9972  1432 pts/0    S+   16:49   0:00 bash -c ps aux && ps -u $USER && to
+razrs      16419  0.0  0.0   8372  1920 pts/0    S+   16:49   0:00 sleep 5
+razrs      16420  0.0  0.0  12672  3456 pts/0    R+   16:49   0:00 ps aux
+    PID TTY          TIME CMD
+   1104 ?        00:00:00 systemd
+   1119 ?        00:00:00 (sd-pam)
+   1241 ?        00:00:00 pipewire
+   1242 ?        00:00:00 pipewire-media-
+   1249 ?        00:00:08 pulseaudio
+   1250 ?        00:00:00 snapd-desktop-i
+   1265 ?        00:00:00 gnome-keyring-d
+   1279 tty2     00:00:00 gdm-wayland-ses
+   1283 ?        00:00:01 dbus-daemon
+   1299 tty2     00:00:00 gnome-session-b
+   1300 ?        00:00:00 gvfsd
+   1329 ?        00:00:00 gvfsd-fuse
+   1360 ?        00:00:00 gnome-session-c
+   1377 ?        00:00:00 gnome-session-b
+   1398 ?        00:00:00 at-spi-bus-laun
+   1399 ?        00:03:59 gnome-shell
+   1409 ?        00:00:00 dbus-daemon
+   1495 ?        00:00:00 xdg-document-po
+   1498 ?        00:00:00 xdg-permission-
+   1521 ?        00:00:00 gnome-shell-cal
+   1527 ?        00:00:00 evolution-sourc
+   1543 ?        00:00:00 goa-daemon
+   1550 ?        00:00:00 gvfs-udisks2-vo
+   1557 ?        00:00:00 evolution-calen
+   1569 ?        00:00:00 goa-identity-se
+   1572 ?        00:00:00 gvfs-mtp-volume
+   1582 ?        00:00:00 gvfs-goa-volume
+   1588 ?        00:00:00 dconf-service
+   1592 ?        00:00:00 gvfs-gphoto2-vo
+   1596 ?        00:00:00 evolution-addre
+   1600 ?        00:00:01 gvfs-afc-volume
+   1632 ?        00:00:00 gvfsd-trash
+   1647 ?        00:00:00 gjs
+   1648 ?        00:00:00 at-spi2-registr
+   1661 ?        00:00:00 sh
+   1662 ?        00:00:00 gsd-a11y-settin
+   1664 ?        00:00:00 gsd-color
+   1665 ?        00:00:00 gsd-datetime
+   1666 ?        00:00:00 gsd-housekeepin
+   1668 ?        00:00:18 ibus-daemon
+   1669 ?        00:00:00 gsd-keyboard
+   1670 ?        00:00:00 gsd-media-keys
+   1676 ?        00:00:00 gsd-power
+   1677 ?        00:00:00 gsd-print-notif
+   1678 ?        00:00:00 gsd-rfkill
+   1679 ?        00:00:00 gsd-screensaver
+   1681 ?        00:00:00 gsd-sharing
+   1686 ?        00:00:00 gsd-smartcard
+   1687 ?        00:00:00 gsd-sound
+   1692 ?        00:00:00 gsd-wacom
+   1744 ?        00:00:00 ibus-dconf
+   1754 ?        00:00:02 ibus-extension-
+   1758 ?        00:00:00 ibus-portal
+   1761 ?        00:00:00 evolution-alarm
+   1774 ?        00:00:00 gsd-disk-utilit
+   1783 ?        00:00:26 vmtoolsd
+   1787 ?        00:00:00 gsd-printer
+   1847 ?        00:00:06 ibus-engine-sim
+   1848 ?        00:00:00 gvfsd-metadata
+   1880 ?        00:00:00 xdg-desktop-por
+   1891 ?        00:00:00 xdg-desktop-por
+   1901 ?        00:01:29 Xwayland
+   1902 ?        00:00:00 snapd-desktop-i
+   1920 ?        00:00:01 tracker-miner-f
+   1954 ?        00:00:00 gjs
+   1973 ?        00:00:00 gsd-xsettings
+   1977 ?        00:00:00 xdg-desktop-por
+   2048 ?        00:00:00 ibus-x11
+   2393 ?        00:00:00 snap
+   2954 ?        00:00:00 update-notifier
+   3728 ?        00:00:00 ssh-agent
+   4844 ?        00:00:14 snap-store
+   7239 ?        00:00:56 gnome-terminal-
+   7289 ?        00:04:59 firefox
+   7545 ?        00:00:00 Socket Process
+   7562 ?        00:00:03 WebExtensions
+   7588 ?        00:00:03 Privileged Cont
+   8009 ?        00:00:00 Utility Process
+   8037 ?        00:09:55 Isolated Web Co
+  12400 pts/1    00:00:01 bash
+  12443 ?        00:00:00 Web Content
+  12446 ?        00:00:00 Web Content
+  12484 ?        00:00:00 Web Content
+  13079 ?        00:00:00 gvfsd-network
+  13097 ?        00:00:00 gvfsd-dnssd
+  15381 ?        00:00:00 gjs
+  16083 ?        00:00:02 nautilus
+  16144 ?        00:00:00 gvfsd-recent
+  16415 pts/1    00:00:00 script
+  16416 pts/0    00:00:00 bash
+  16418 pts/0    00:00:00 bash
+  16419 pts/0    00:00:00 sleep
+  16421 pts/0    00:00:00 ps
+top - 16:49:42 up  6:47,  1 user,  load average: 0,18, 0,22, 0,14
+Tasks: 319 total,   1 running, 318 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3,1 us,  0,0 sy,  0,0 ni, 93,8 id,  3,1 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :  15949,5 total,   8507,7 free,   2504,8 used,   4937,1 buff/cache
+MiB Swap:   2048,0 total,   2048,0 free,      0,0 used.  13042,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  167964  13144   8280 S   0,0   0,1   0:03.57 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.09 ksoftirqd/0
+     15 root      20   0       0      0      0 I   0,0   0,0   0:05.71 rcu_preempt
+     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.14 migration/0
+     17 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.27 migration/1
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.11 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.26 migration/2
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.10 ksoftirqd/2
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.26 migration/3
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.56 ksoftirqd/3
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     39 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     40 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     42 root      20   0       0      0      0 S   0,0   0,0   0:00.03 khungtaskd
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.90 kcompactd0
+     48 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     49 root      39  19       0      0      0 S   0,0   0,0   0:00.11 khugepaged
+     50 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     51 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     52 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     53 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     54 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+     56 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+     57 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+     58 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     60 root       0 -20       0      0      0 I   0,0   0,0   0:00.48 kworker/3:1H-kblockd
+     61 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ecryptfs-kthread
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld
+     64 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/24-pciehp
+     65 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/25-pciehp
+     66 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/26-pciehp
+     67 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/27-pciehp
+     68 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/28-pciehp
+     69 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/29-pciehp
+     70 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/30-pciehp
+     71 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/31-pciehp
+     72 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/32-pciehp
+     73 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/33-pciehp
+     74 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/34-pciehp
+     75 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/35-pciehp
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/36-pciehp
+     77 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/37-pciehp
+     78 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/38-pciehp
+     79 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/39-pciehp
+     80 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/40-pciehp
+     81 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/41-pciehp
+     82 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/42-pciehp
+     83 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/43-pciehp
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/44-pciehp
+     85 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/45-pciehp
+     86 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/46-pciehp
+     87 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/47-pciehp
+     88 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/48-pciehp
+     89 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/49-pciehp
+     90 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/50-pciehp
+     91 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/51-pciehp
+     92 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/52-pciehp
+     93 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/53-pciehp
+     94 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/54-pciehp
+     95 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/55-pciehp
+     96 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm
+     97 root      20   0       0      0      0 S   0,0   0,0   0:00.02 scsi_eh_0
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0
+     99 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    100 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1
+    105 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld
+    106 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink
+    119 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:0
+    123 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 charger_manager
+    143 root       0 -20       0      0      0 I   0,0   0,0   0:00.47 kworker/0:1H-kblockd
+    149 root       0 -20       0      0      0 I   0,0   0,0   0:00.62 kworker/1:1H-kblockd
+    162 root       0 -20       0      0      0 I   0,0   0,0   0:00.51 kworker/2:1H-kblockd
+    175 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mpt_poll_0
+    176 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mpt/0
+    177 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_2
+    178 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_2
+    179 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_3
+    180 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_3
+    181 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_4
+    182 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_4
+    183 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_5
+    184 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_5
+    185 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_6
+    186 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_6
+    187 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_7
+    188 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_7
+    189 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_8
+    190 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_8
+    191 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_9
+    192 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_9
+    193 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_10
+    194 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_10
+    195 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_11
+    196 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_11
+    197 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_12
+    198 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_12
+    199 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_13
+    200 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_13
+    201 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_14
+    202 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_14
+    203 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_15
+    204 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_15
+    205 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_16
+    206 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_16
+    207 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_17
+    208 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_17
+    209 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_18
+    210 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_18
+    211 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_19
+    212 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_19
+    213 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_20
+    214 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_20
+    215 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_21
+    216 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_21
+    217 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_22
+    218 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_22
+    219 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_23
+    220 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_23
+    221 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_24
+    222 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_24
+    223 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_25
+    224 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_25
+    225 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_26
+    226 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_26
+    227 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_27
+    228 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_27
+    229 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_28
+    230 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_28
+    231 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_29
+    232 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_29
+    233 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_30
+    234 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_30
+    235 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_31
+    236 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_31
+    265 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_32
+    266 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_32
+    293 root      20   0       0      0      0 S   0,0   0,0   0:01.42 jbd2/sda3-8
+    294 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ext4-rsv-conver
+    333 root      19  -1   64620  23604  22324 S   0,0   0,1   0:01.16 systemd-journal
+    370 root      20   0  152560   1292   1152 S   0,0   0,0   0:00.00 vmware-vmblock-
+    392 root      20   0   27144   7168   4736 S   0,0   0,0   0:00.75 systemd-udevd
+    394 root     -51   0       0      0      0 S   0,0   0,0   0:06.95 irq/16-vmwgfx
+    559 root     -51   0       0      0      0 S   0,0   0,0   0:00.46 irq/57-vmw_vmci
+    562 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/58-vmw_vmci
+    640 systemd+  20   0   14828   6784   6016 S   0,0   0,0   0:22.59 systemd-oomd
+    644 systemd+  20   0   25664  14044   9728 S   0,0   0,1   0:00.83 systemd-resolve
+    647 systemd+  20   0   89380   7296   6528 S   0,0   0,0   0:00.09 systemd-timesyn
+    670 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 cryptd
+    672 root      20   0   53744  12160  10112 S   0,0   0,1   0:00.01 VGAuthService
+    674 root      20   0  243640   9088   7680 S   0,0   0,1   0:23.28 vmtoolsd
+    787 root      20   0  239908   7616   6848 S   0,0   0,0   0:00.50 accounts-daemon
+    788 root      20   0    2812   2048   1920 S   0,0   0,0   0:00.96 acpid
+    793 avahi     20   0    7628   4096   3712 S   0,0   0,0   0:01.16 avahi-daemon
+    794 root      20   0    9496   2816   2688 S   0,0   0,0   0:00.03 cron
+    796 message+  20   0   11000   6400   4096 S   0,0   0,0   0:01.11 dbus-daemon
+    798 root      20   0  260952  18508  15820 S   0,0   0,1   0:01.00 NetworkManager
+    814 root      20   0   82832   4096   3712 S   0,0   0,0   0:00.87 irqbalance
+    817 root      20   0   41060  21248  12032 S   0,0   0,1   0:00.06 networkd-dispat
+    818 root      20   0  242540  10560   7520 S   0,0   0,1   0:00.31 polkitd
+    825 root      20   0  240088   7424   6784 S   0,0   0,0   0:00.01 power-profiles-
+    826 syslog    20   0  222400   5760   4352 S   0,0   0,0   0:00.17 rsyslogd
+    829 root      20   0  236588   7040   6272 S   0,0   0,0   0:00.04 switcheroo-cont
+    830 root      20   0   15452   7944   6784 S   0,0   0,0   0:00.20 systemd-logind
+    833 root      20   0  393152  13628  10940 S   0,0   0,1   0:00.20 udisksd
+    839 root      20   0   16496   6656   5888 S   0,0   0,0   0:00.11 wpa_supplicant
+    849 avahi     20   0    7440   1280   1024 S   0,0   0,0   0:00.00 avahi-daemon
+    914 root      20   0  317964  12612  10692 S   0,0   0,1   0:00.07 ModemManager
+    938 root      20   0   73012  13952  11648 S   0,0   0,1   0:00.02 cupsd
+    972 root      20   0  118160  23808  15104 S   0,0   0,1   0:00.05 unattended-upgr
+    992 root      20   0  241236   9088   8064 S   0,0   0,1   0:00.01 gdm3
+   1020 root      20   0  317920  11008   9344 S   0,0   0,1   0:00.04 gdm-session-wor
+   1104 razrs     20   0   18740  11332   8064 S   0,0   0,1   0:00.65 systemd
+   1119 razrs     20   0  104224   5408   1536 S   0,0   0,0   0:00.00 (sd-pam)
+   1238 root      20   0  172620  11008   9728 S   0,0   0,1   0:00.02 cups-browsed
+   1241 razrs      9 -11   39572   6400   5376 S   0,0   0,0   0:00.03 pipewire
+   1242 razrs     20   0   23460   6272   5376 S   0,0   0,0   0:00.08 pipewire-media-
+   1243 kernoops  20   0   13084   2208   1792 S   0,0   0,0   0:00.02 kerneloops
+   1249 razrs      9 -11 2021972  29016  22104 S   0,0   0,2   0:08.61 pulseaudio
+   1250 razrs     20   0   76148  13952  12288 S   0,0   0,1   0:00.82 snapd-desktop-i
+   1259 kernoops  20   0   13084   2196   1792 S   0,0   0,0   0:00.02 kerneloops
+   1260 rtkit     21   1  154000   3328   3072 S   0,0   0,0   0:00.31 rtkit-daemon
+   1265 razrs     20   0  388372   8220   7040 S   0,0   0,1   0:00.16 gnome-keyring-d
+   1279 razrs     20   0  162388   6272   5760 S   0,0   0,0   0:00.00 gdm-wayland-ses
+   1283 razrs     20   0   12124   8212   3968 S   0,0   0,1   0:01.53 dbus-daemon
+   1299 razrs     20   0  223040  15744  13952 S   0,0   0,1   0:00.02 gnome-session-b
+   1300 razrs     20   0  240756   7808   7040 S   0,0   0,0   0:00.06 gvfsd
+   1329 razrs     20   0  380888   6784   6016 S   0,0   0,0   0:00.00 gvfsd-fuse
+   1360 razrs     20   0   91908   5632   5248 S   0,0   0,0   0:00.00 gnome-session-c
+   1377 razrs     20   0  593004  17280  14592 S   0,0   0,1   0:00.10 gnome-session-b
+   1398 razrs     20   0  309612   7680   6912 S   0,0   0,0   0:00.01 at-spi-bus-laun
+   1399 razrs     20   0 4830724 349916 143996 S   0,0   2,1   3:59.33 gnome-shell
+   1409 razrs     20   0    8560   4480   4096 S   0,0   0,0   0:00.02 dbus-daemon
+   1495 razrs     20   0  610636   7296   6656 S   0,0   0,0   0:00.09 xdg-document-po
+   1498 razrs     20   0  236152   6272   5760 S   0,0   0,0   0:00.01 xdg-permission-
+   1504 root      20   0    2792   1792   1792 S   0,0   0,0   0:00.00 fusermount3
+   1521 razrs     20   0  583056  21120  18176 S   0,0   0,1   0:00.06 gnome-shell-cal
+   1527 razrs     20   0 1072200  25984  22144 S   0,0   0,2   0:00.06 evolution-sourc
+   1528 root      20   0  242216   8576   7424 S   0,0   0,1   0:00.03 upowerd
+   1543 razrs     20   0  578328  40576  33152 S   0,0   0,2   0:00.04 goa-daemon
+   1550 razrs     20   0  389748  10624   8704 S   0,0   0,1   0:00.17 gvfs-udisks2-vo
+   1557 razrs     20   0  840496  30976  26624 S   0,0   0,2   0:00.08 evolution-calen
+   1569 razrs     20   0  338400  14976  13184 S   0,0   0,1   0:00.03 goa-identity-se
+   1572 razrs     20   0  236460   6656   6144 S   0,0   0,0   0:00.02 gvfs-mtp-volume
+   1582 razrs     20   0  236644   6656   6016 S   0,0   0,0   0:00.02 gvfs-goa-volume
+   1588 razrs     20   0  157080   5888   5376 S   0,0   0,0   0:00.03 dconf-service
+   1592 razrs     20   0  237552   7040   6400 S   0,0   0,0   0:00.03 gvfs-gphoto2-vo
+   1596 razrs     20   0  672236  28672  25088 S   0,0   0,2   0:00.04 evolution-addre
+   1600 razrs     20   0  315216   8064   7040 S   0,0   0,0   0:01.01 gvfs-afc-volume
+   1615 root      20   0  373248  39420  19340 S   0,0   0,2   0:03.95 packagekitd
+   1632 razrs     20   0  315128   9088   7808 S   0,0   0,1   0:00.06 gvfsd-trash
+   1647 razrs     20   0 2603596  28080  22656 S   0,0   0,2   0:00.05 gjs
+   1648 razrs     20   0  162680   7680   6912 S   0,0   0,0   0:00.00 at-spi2-registr
+   1661 razrs     20   0    2888   1664   1664 S   0,0   0,0   0:00.00 sh
+   1662 razrs     20   0  310420   7040   6400 S   0,0   0,0   0:00.00 gsd-a11y-settin
+   1664 razrs     20   0  451224  25860  19972 S   0,0   0,2   0:00.14 gsd-color
+   1665 razrs     20   0  375460  16384  14336 S   0,0   0,1   0:00.01 gsd-datetime
+   1666 razrs     20   0  311916   8192   7296 S   0,0   0,1   0:00.69 gsd-housekeepin
+   1668 razrs     20   0  315124  11940   7040 S   0,0   0,1   0:18.64 ibus-daemon
+   1669 razrs     20   0  340588  22232  17496 S   0,0   0,1   0:00.07 gsd-keyboard
+   1670 razrs     20   0  642964  27136  21504 S   0,0   0,2   0:00.17 gsd-media-keys
+   1676 razrs     20   0  376828  25860  20100 S   0,0   0,2   0:00.09 gsd-power
+   1677 razrs     20   0  249852  11520  10112 S   0,0   0,1   0:00.01 gsd-print-notif
+   1678 razrs     20   0  457856   6912   6272 S   0,0   0,0   0:00.01 gsd-rfkill
+   1679 razrs     20   0  236288   6272   5760 S   0,0   0,0   0:00.01 gsd-screensaver
+   1681 razrs     20   0  465940  10752   9216 S   0,0   0,1   0:00.00 gsd-sharing
+   1686 razrs     20   0  386028   8320   7424 S   0,0   0,1   0:00.00 gsd-smartcard
+   1687 razrs     20   0  319332   9728   8576 S   0,0   0,1   0:00.01 gsd-sound
+   1692 razrs     20   0  414884  22516  17524 S   0,0   0,1   0:00.05 gsd-wacom
+   1744 razrs     20   0  237304   7424   6784 S   0,0   0,0   0:00.00 ibus-dconf
+   1754 razrs     20   0  347800  29244  18436 S   0,0   0,2   0:02.62 ibus-extension-
+   1758 razrs     20   0  237272   7552   6912 S   0,0   0,0   0:00.06 ibus-portal
+   1761 razrs     20   0  827372  66692  51460 S   0,0   0,4   0:00.15 evolution-alarm
+   1774 razrs     20   0  232272   7808   6272 S   0,0   0,0   0:00.00 gsd-disk-utilit
+   1783 razrs     20   0  643160  59368  36060 S   0,0   0,4   0:26.36 vmtoolsd
+   1787 razrs     20   0  342356  15104  13184 S   0,0   0,1   0:00.01 gsd-printer
+   1847 razrs     20   0  163892   7936   6912 S   0,0   0,0   0:06.80 ibus-engine-sim
+   1848 razrs     20   0  163064   6528   6016 S   0,0   0,0   0:00.02 gvfsd-metadata
+   1880 razrs     20   0  754864  14464  11904 S   0,0   0,1   0:00.66 xdg-desktop-por
+   1891 razrs     20   0  662880  28944  20764 S   0,0   0,2   0:00.43 xdg-desktop-por
+   1901 razrs     20   0  318992 104704  71044 S   0,0   0,6   1:29.55 Xwayland
+   1902 razrs     20   0  305940  22084  15104 S   0,0   0,1   0:00.13 snapd-desktop-i
+   1907 colord    20   0  245380  13088   9632 S   0,0   0,1   0:00.06 colord
+   1920 razrs     39  19  707172  27812  18816 S   0,0   0,2   0:01.33 tracker-miner-f
+   1954 razrs     20   0 2603596  28260  22784 S   0,0   0,2   0:00.09 gjs
+   1973 razrs     20   0  545108  79668  61120 S   0,0   0,5   0:00.47 gsd-xsettings
+   1977 razrs     20   0  344492  25988  18820 S   0,0   0,2   0:00.21 xdg-desktop-por
+   2015 root      20   0  240004   7712   6944 S   0,0   0,0   0:00.02 ubuntu-advantag
+   2048 razrs     20   0  194196  24884  17832 S   0,0   0,2   0:00.31 ibus-x11
+   2393 razrs     20   0  794648  27008  15104 S   0,0   0,2   0:00.52 snap
+   2954 razrs     20   0  418932  27580  20284 S   0,0   0,2   0:00.60 update-notifier
+   3728 razrs     20   0    7972   5632   4480 S   0,0   0,0   0:00.30 ssh-agent
+   4445 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tls-strp
+   4844 razrs     20   0 1197768 221992  54396 S   0,0   1,4   0:14.83 snap-store
+   6763 root      20   0   63060  40684  19840 S   0,0   0,2   0:00.12 python3
+   7239 razrs     20   0  572316  69384  45672 S   0,0   0,4   0:56.07 gnome-terminal-
+   7289 razrs     20   0   11,4g 457268 161944 S   0,0   2,8   4:59.64 firefox
+   7545 razrs     20   0  204748  38912  30208 S   0,0   0,2   0:00.09 Socket Process
+   7562 razrs     20   0 2525596 144496  84280 S   0,0   0,9   0:03.38 WebExtensions
+   7588 razrs     20   0 2460796 136188  81144 S   0,0   0,8   0:03.20 Privileged Cont
+   8009 razrs     20   0  203328  34560  26752 S   0,0   0,2   0:00.07 Utility Process
+   8037 razrs     20   0 2738328 361168  94080 S   0,0   2,2   9:55.46 Isolated Web Co
+  10066 root      20   0    6776   4592   3328 S   0,0   0,0   0:00.99 apache2
+  10067 www-data  20   0 1932640   4724   3072 S   0,0   0,0   0:00.00 apache2
+  10068 www-data  20   0 1998176   4596   3072 S   0,0   0,0   0:00.00 apache2
+  10179 www-data  20   0    3736   1412   1280 S   0,0   0,0   0:00.77 htcacheclean
+  12400 razrs     20   0   21132  15520   4224 S   0,0   0,1   0:01.36 bash
+  12443 razrs     20   0 2380968  62848  50816 S   0,0   0,4   0:00.08 Web Content
+  12446 razrs     20   0 2380964  63360  51328 S   0,0   0,4   0:00.08 Web Content
+  12484 razrs     20   0 2380968  62712  50808 S   0,0   0,4   0:00.08 Web Content
+  13079 razrs     20   0  388720   9216   8064 S   0,0   0,1   0:00.01 gvfsd-network
+  13097 razrs     20   0  316824   9088   8064 S   0,0   0,1   0:00.01 gvfsd-dnssd
+  13793 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-kblockd
+  13842 root      20   0 1467620  31736  19584 S   0,0   0,2   0:01.50 snapd
+  15217 root      20   0       0      0      0 I   0,0   0,0   0:00.75 kworker/u256:3-events_power_e+
+  15381 razrs     20   0 2873364  70564  53892 S   0,0   0,4   0:00.76 gjs
+  15744 root      20   0       0      0      0 I   0,0   0,0   0:00.29 kworker/1:0-cgwb_release
+  15992 root      20   0       0      0      0 I   0,0   0,0   0:00.20 kworker/u256:2-events_power_e+
+  16030 root      20   0       0      0      0 I   0,0   0,0   0:00.14 kworker/3:1-cgroup_destroy
+  16035 root      20   0       0      0      0 I   0,0   0,0   0:00.95 kworker/2:1-events
+  16048 root      20   0       0      0      0 I   0,0   0,0   0:00.40 kworker/1:2-events
+  16083 razrs     20   0 1005264  81812  52760 S   0,0   0,5   0:02.40 nautilus
+  16144 razrs     20   0  314896   8704   7808 S   0,0   0,1   0:00.01 gvfsd-recent
+  16226 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/2:2-rcu_par_gp
+  16299 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1-events
+  16301 root      20   0       0      0      0 I   0,0   0,0   0:00.11 kworker/0:3-events
+  16304 root      20   0       0      0      0 I   0,0   0,0   0:00.17 kworker/u256:0-events_unbound
+  16308 root      20   0       0      0      0 I   0,0   0,0   0:00.10 kworker/3:0-events
+  16408 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:1-events_unbound
+  16415 razrs     20   0    8388   2304   2176 S   0,0   0,0   0:00.00 script
+  16416 razrs     20   0    9972   3584   3328 S   0,0   0,0   0:00.00 bash
+  16418 razrs     20   0    9972   1688   1536 S   0,0   0,0   0:00.00 bash
+  16419 razrs     20   0    8372   1920   1920 S   0,0   0,0   0:00.00 sleep
+  16422 razrs     20   0   13212   4096   3328 R   0,0   0,0   0:00.00 top
+
+top - 16:49:45 up  6:47,  1 user,  load average: 0,16, 0,21, 0,14
+Tasks: 319 total,   1 running, 318 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0,0 us,  0,0 sy,  0,0 ni,100,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :  15949,5 total,   8507,7 free,   2504,7 used,   4937,1 buff/cache
+MiB Swap:   2048,0 total,   2048,0 free,      0,0 used.  13042,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    640 systemd+  20   0   14828   6784   6016 S   0,3   0,0   0:22.60 systemd-oomd
+   1399 razrs     20   0 4830724 349916 143996 S   0,3   2,1   3:59.34 gnome-shell
+  16301 root      20   0       0      0      0 I   0,3   0,0   0:00.12 kworker/0:3-events
+  16422 razrs     20   0   13212   4224   3328 R   0,3   0,0   0:00.01 top
+      1 root      20   0  167964  13144   8280 S   0,0   0,1   0:03.57 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     13 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.09 ksoftirqd/0
+     15 root      20   0       0      0      0 I   0,0   0,0   0:05.71 rcu_preempt
+     16 root      rt   0       0      0      0 S   0,0   0,0   0:00.14 migration/0
+     17 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0,0   0,0   0:00.27 migration/1
+     23 root      20   0       0      0      0 S   0,0   0,0   0:00.11 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.26 migration/2
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.10 ksoftirqd/2
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.26 migration/3
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.56 ksoftirqd/3
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     39 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     40 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     42 root      20   0       0      0      0 S   0,0   0,0   0:00.03 khungtaskd
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     46 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.90 kcompactd0
+     48 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     49 root      39  19       0      0      0 S   0,0   0,0   0:00.11 khugepaged
+     50 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     51 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     52 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     53 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     54 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+     56 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+     57 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+     58 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     60 root       0 -20       0      0      0 I   0,0   0,0   0:00.48 kworker/3:1H-kblockd
+     61 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ecryptfs-kthread
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kthrotld
+     64 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/24-pciehp
+     65 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/25-pciehp
+     66 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/26-pciehp
+     67 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/27-pciehp
+     68 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/28-pciehp
+     69 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/29-pciehp
+     70 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/30-pciehp
+     71 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/31-pciehp
+     72 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/32-pciehp
+     73 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/33-pciehp
+     74 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/34-pciehp
+     75 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/35-pciehp
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/36-pciehp
+     77 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/37-pciehp
+     78 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/38-pciehp
+     79 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/39-pciehp
+     80 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/40-pciehp
+     81 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/41-pciehp
+     82 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/42-pciehp
+     83 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/43-pciehp
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/44-pciehp
+     85 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/45-pciehp
+     86 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/46-pciehp
+     87 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/47-pciehp
+     88 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/48-pciehp
+     89 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/49-pciehp
+     90 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/50-pciehp
+     91 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/51-pciehp
+     92 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/52-pciehp
+     93 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/53-pciehp
+     94 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/54-pciehp
+     95 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/55-pciehp
+     96 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 acpi_thermal_pm
+     97 root      20   0       0      0      0 S   0,0   0,0   0:00.02 scsi_eh_0
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_0
+     99 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    100 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_1
+    105 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mld
+    106 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ipv6_addrconf
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kstrp
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 zswap-shrink
+    119 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:0
+    123 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 charger_manager
+    143 root       0 -20       0      0      0 I   0,0   0,0   0:00.47 kworker/0:1H-kblockd
+    149 root       0 -20       0      0      0 I   0,0   0,0   0:00.62 kworker/1:1H-kblockd
+    162 root       0 -20       0      0      0 I   0,0   0,0   0:00.51 kworker/2:1H-kblockd
+    175 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mpt_poll_0
+    176 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mpt/0
+    177 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_2
+    178 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_2
+    179 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_3
+    180 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_3
+    181 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_4
+    182 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_4
+    183 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_5
+    184 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_5
+    185 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_6
+    186 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_6
+    187 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_7
+    188 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_7
+    189 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_8
+    190 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_8
+    191 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_9
+    192 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_9
+    193 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_10
+    194 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_10
+    195 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_11
+    196 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_11
+    197 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_12
+    198 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_12
+    199 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_13
+    200 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_13
+    201 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_14
+    202 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_14
+    203 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_15
+    204 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_15
+    205 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_16
+    206 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_16
+    207 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_17
+    208 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_17
+    209 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_18
+    210 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_18
+    211 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_19
+    212 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_19
+    213 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_20
+    214 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_20
+    215 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_21
+    216 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_21
+    217 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_22
+    218 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_22
+    219 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_23
+    220 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_23
+    221 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_24
+    222 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_24
+    223 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_25
+    224 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_25
+    225 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_26
+    226 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_26
+    227 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_27
+    228 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_27
+    229 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_28
+    230 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_28
+    231 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_29
+    232 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_29
+    233 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_30
+    234 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_30
+    235 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_31
+    236 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_31
+    265 root      20   0       0      0      0 S   0,0   0,0   0:00.00 scsi_eh_32
+    266 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 scsi_tmf_32
+    293 root      20   0       0      0      0 S   0,0   0,0   0:01.42 jbd2/sda3-8
+    294 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ext4-rsv-conver
+    333 root      19  -1   64620  23604  22324 S   0,0   0,1   0:01.16 systemd-journal
+    370 root      20   0  152560   1292   1152 S   0,0   0,0   0:00.00 vmware-vmblock-
+    392 root      20   0   27144   7168   4736 S   0,0   0,0   0:00.75 systemd-udevd
+    394 root     -51   0       0      0      0 S   0,0   0,0   0:06.95 irq/16-vmwgfx
+    559 root     -51   0       0      0      0 S   0,0   0,0   0:00.46 irq/57-vmw_vmci
+    562 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/58-vmw_vmci
+    644 systemd+  20   0   25664  14044   9728 S   0,0   0,1   0:00.83 systemd-resolve
+    647 systemd+  20   0   89380   7296   6528 S   0,0   0,0   0:00.09 systemd-timesyn
+    670 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 cryptd
+    672 root      20   0   53744  12160  10112 S   0,0   0,1   0:00.01 VGAuthService
+    674 root      20   0  243640   9088   7680 S   0,0   0,1   0:23.28 vmtoolsd
+    787 root      20   0  239908   7616   6848 S   0,0   0,0   0:00.50 accounts-daemon
+    788 root      20   0    2812   2048   1920 S   0,0   0,0   0:00.96 acpid
+    793 avahi     20   0    7628   4096   3712 S   0,0   0,0   0:01.16 avahi-daemon
+    794 root      20   0    9496   2816   2688 S   0,0   0,0   0:00.03 cron
+    796 message+  20   0   11000   6400   4096 S   0,0   0,0   0:01.11 dbus-daemon
+    798 root      20   0  260952  18508  15820 S   0,0   0,1   0:01.00 NetworkManager
+    814 root      20   0   82832   4096   3712 S   0,0   0,0   0:00.87 irqbalance
+    817 root      20   0   41060  21248  12032 S   0,0   0,1   0:00.06 networkd-dispat
+    818 root      20   0  242540  10560   7520 S   0,0   0,1   0:00.31 polkitd
+    825 root      20   0  240088   7424   6784 S   0,0   0,0   0:00.01 power-profiles-
+    826 syslog    20   0  222400   5760   4352 S   0,0   0,0   0:00.17 rsyslogd
+    829 root      20   0  236588   7040   6272 S   0,0   0,0   0:00.04 switcheroo-cont
+    830 root      20   0   15452   7944   6784 S   0,0   0,0   0:00.20 systemd-logind
+    833 root      20   0  393152  13628  10940 S   0,0   0,1   0:00.20 udisksd
+    839 root      20   0   16496   6656   5888 S   0,0   0,0   0:00.11 wpa_supplicant
+    849 avahi     20   0    7440   1280   1024 S   0,0   0,0   0:00.00 avahi-daemon
+    914 root      20   0  317964  12612  10692 S   0,0   0,1   0:00.07 ModemManager
+    938 root      20   0   73012  13952  11648 S   0,0   0,1   0:00.02 cupsd
+    972 root      20   0  118160  23808  15104 S   0,0   0,1   0:00.05 unattended-upgr
+    992 root      20   0  241236   9088   8064 S   0,0   0,1   0:00.01 gdm3
+   1020 root      20   0  317920  11008   9344 S   0,0   0,1   0:00.04 gdm-session-wor
+   1104 razrs     20   0   18740  11332   8064 S   0,0   0,1   0:00.65 systemd
+   1119 razrs     20   0  104224   5408   1536 S   0,0   0,0   0:00.00 (sd-pam)
+   1238 root      20   0  172620  11008   9728 S   0,0   0,1   0:00.02 cups-browsed
+   1241 razrs      9 -11   39572   6400   5376 S   0,0   0,0   0:00.03 pipewire
+   1242 razrs     20   0   23460   6272   5376 S   0,0   0,0   0:00.08 pipewire-media-
+   1243 kernoops  20   0   13084   2208   1792 S   0,0   0,0   0:00.02 kerneloops
+   1249 razrs      9 -11 2021972  29016  22104 S   0,0   0,2   0:08.61 pulseaudio
+   1250 razrs     20   0   76148  13952  12288 S   0,0   0,1   0:00.82 snapd-desktop-i
+   1259 kernoops  20   0   13084   2196   1792 S   0,0   0,0   0:00.02 kerneloops
+   1260 rtkit     21   1  154000   3328   3072 S   0,0   0,0   0:00.31 rtkit-daemon
+   1265 razrs     20   0  388372   8220   7040 S   0,0   0,1   0:00.16 gnome-keyring-d
+   1279 razrs     20   0  162388   6272   5760 S   0,0   0,0   0:00.00 gdm-wayland-ses
+   1283 razrs     20   0   12124   8212   3968 S   0,0   0,1   0:01.53 dbus-daemon
+   1299 razrs     20   0  223040  15744  13952 S   0,0   0,1   0:00.02 gnome-session-b
+   1300 razrs     20   0  240756   7808   7040 S   0,0   0,0   0:00.06 gvfsd
+   1329 razrs     20   0  380888   6784   6016 S   0,0   0,0   0:00.00 gvfsd-fuse
+   1360 razrs     20   0   91908   5632   5248 S   0,0   0,0   0:00.00 gnome-session-c
+   1377 razrs     20   0  593004  17280  14592 S   0,0   0,1   0:00.10 gnome-session-b
+   1398 razrs     20   0  309612   7680   6912 S   0,0   0,0   0:00.01 at-spi-bus-laun
+   1409 razrs     20   0    8560   4480   4096 S   0,0   0,0   0:00.02 dbus-daemon
+   1495 razrs     20   0  610636   7296   6656 S   0,0   0,0   0:00.09 xdg-document-po
+   1498 razrs     20   0  236152   6272   5760 S   0,0   0,0   0:00.01 xdg-permission-
+   1504 root      20   0    2792   1792   1792 S   0,0   0,0   0:00.00 fusermount3
+   1521 razrs     20   0  583056  21120  18176 S   0,0   0,1   0:00.06 gnome-shell-cal
+   1527 razrs     20   0 1072200  25984  22144 S   0,0   0,2   0:00.06 evolution-sourc
+   1528 root      20   0  242216   8576   7424 S   0,0   0,1   0:00.03 upowerd
+   1543 razrs     20   0  578328  40576  33152 S   0,0   0,2   0:00.04 goa-daemon
+   1550 razrs     20   0  389748  10624   8704 S   0,0   0,1   0:00.17 gvfs-udisks2-vo
+   1557 razrs     20   0  840496  30976  26624 S   0,0   0,2   0:00.08 evolution-calen
+   1569 razrs     20   0  338400  14976  13184 S   0,0   0,1   0:00.03 goa-identity-se
+   1572 razrs     20   0  236460   6656   6144 S   0,0   0,0   0:00.02 gvfs-mtp-volume
+   1582 razrs     20   0  236644   6656   6016 S   0,0   0,0   0:00.02 gvfs-goa-volume
+   1588 razrs     20   0  157080   5888   5376 S   0,0   0,0   0:00.03 dconf-service
+   1592 razrs     20   0  237552   7040   6400 S   0,0   0,0   0:00.03 gvfs-gphoto2-vo
+   1596 razrs     20   0  672236  28672  25088 S   0,0   0,2   0:00.04 evolution-addre
+   1600 razrs     20   0  315216   8064   7040 S   0,0   0,0   0:01.01 gvfs-afc-volume
+   1615 root      20   0  373248  39420  19340 S   0,0   0,2   0:03.95 packagekitd
+   1632 razrs     20   0  315128   9088   7808 S   0,0   0,1   0:00.06 gvfsd-trash
+   1647 razrs     20   0 2603596  28080  22656 S   0,0   0,2   0:00.05 gjs
+   1648 razrs     20   0  162680   7680   6912 S   0,0   0,0   0:00.00 at-spi2-registr
+   1661 razrs     20   0    2888   1664   1664 S   0,0   0,0   0:00.00 sh
+   1662 razrs     20   0  310420   7040   6400 S   0,0   0,0   0:00.00 gsd-a11y-settin
+   1664 razrs     20   0  451224  25860  19972 S   0,0   0,2   0:00.14 gsd-color
+   1665 razrs     20   0  375460  16384  14336 S   0,0   0,1   0:00.01 gsd-datetime
+   1666 razrs     20   0  311916   8192   7296 S   0,0   0,1   0:00.69 gsd-housekeepin
+   1668 razrs     20   0  315124  11940   7040 S   0,0   0,1   0:18.64 ibus-daemon
+   1669 razrs     20   0  340588  22232  17496 S   0,0   0,1   0:00.07 gsd-keyboard
+   1670 razrs     20   0  642964  27136  21504 S   0,0   0,2   0:00.17 gsd-media-keys
+   1676 razrs     20   0  376828  25860  20100 S   0,0   0,2   0:00.09 gsd-power
+   1677 razrs     20   0  249852  11520  10112 S   0,0   0,1   0:00.01 gsd-print-notif
+   1678 razrs     20   0  457856   6912   6272 S   0,0   0,0   0:00.01 gsd-rfkill
+   1679 razrs     20   0  236288   6272   5760 S   0,0   0,0   0:00.01 gsd-screensaver
+   1681 razrs     20   0  465940  10752   9216 S   0,0   0,1   0:00.00 gsd-sharing
+   1686 razrs     20   0  386028   8320   7424 S   0,0   0,1   0:00.00 gsd-smartcard
+   1687 razrs     20   0  319332   9728   8576 S   0,0   0,1   0:00.01 gsd-sound
+   1692 razrs     20   0  414884  22516  17524 S   0,0   0,1   0:00.05 gsd-wacom
+   1744 razrs     20   0  237304   7424   6784 S   0,0   0,0   0:00.00 ibus-dconf
+   1754 razrs     20   0  347800  29244  18436 S   0,0   0,2   0:02.62 ibus-extension-
+   1758 razrs     20   0  237272   7552   6912 S   0,0   0,0   0:00.06 ibus-portal
+   1761 razrs     20   0  827372  66692  51460 S   0,0   0,4   0:00.15 evolution-alarm
+   1774 razrs     20   0  232272   7808   6272 S   0,0   0,0   0:00.00 gsd-disk-utilit
+   1783 razrs     20   0  643160  59368  36060 S   0,0   0,4   0:26.36 vmtoolsd
+   1787 razrs     20   0  342356  15104  13184 S   0,0   0,1   0:00.01 gsd-printer
+   1847 razrs     20   0  163892   7936   6912 S   0,0   0,0   0:06.80 ibus-engine-sim
+   1848 razrs     20   0  163064   6528   6016 S   0,0   0,0   0:00.02 gvfsd-metadata
+   1880 razrs     20   0  754864  14464  11904 S   0,0   0,1   0:00.66 xdg-desktop-por
+   1891 razrs     20   0  662880  28944  20764 S   0,0   0,2   0:00.43 xdg-desktop-por
+   1901 razrs     20   0  318992 104704  71044 S   0,0   0,6   1:29.55 Xwayland
+   1902 razrs     20   0  305940  22084  15104 S   0,0   0,1   0:00.13 snapd-desktop-i
+   1907 colord    20   0  245380  13088   9632 S   0,0   0,1   0:00.06 colord
+   1920 razrs     39  19  707172  27812  18816 S   0,0   0,2   0:01.33 tracker-miner-f
+   1954 razrs     20   0 2603596  28260  22784 S   0,0   0,2   0:00.09 gjs
+   1973 razrs     20   0  545108  79668  61120 S   0,0   0,5   0:00.47 gsd-xsettings
+   1977 razrs     20   0  344492  25988  18820 S   0,0   0,2   0:00.21 xdg-desktop-por
+   2015 root      20   0  240004   7712   6944 S   0,0   0,0   0:00.02 ubuntu-advantag
+   2048 razrs     20   0  194196  24884  17832 S   0,0   0,2   0:00.31 ibus-x11
+   2393 razrs     20   0  794648  27008  15104 S   0,0   0,2   0:00.52 snap
+   2954 razrs     20   0  418932  27580  20284 S   0,0   0,2   0:00.60 update-notifier
+   3728 razrs     20   0    7972   5632   4480 S   0,0   0,0   0:00.30 ssh-agent
+   4445 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tls-strp
+   4844 razrs     20   0 1197768 221992  54396 S   0,0   1,4   0:14.83 snap-store
+   6763 root      20   0   63060  40684  19840 S   0,0   0,2   0:00.12 python3
+   7239 razrs     20   0  572316  69384  45672 S   0,0   0,4   0:56.07 gnome-terminal-
+   7289 razrs     20   0   11,4g 457268 161944 S   0,0   2,8   4:59.64 firefox
+   7545 razrs     20   0  204748  38912  30208 S   0,0   0,2   0:00.09 Socket Process
+   7562 razrs     20   0 2525596 144496  84280 S   0,0   0,9   0:03.38 WebExtensions
+   7588 razrs     20   0 2460796 136188  81144 S   0,0   0,8   0:03.20 Privileged Cont
+   8009 razrs     20   0  203328  34560  26752 S   0,0   0,2   0:00.07 Utility Process
+   8037 razrs     20   0 2738328 361168  94080 S   0,0   2,2   9:55.46 Isolated Web Co
+  10066 root      20   0    6776   4592   3328 S   0,0   0,0   0:00.99 apache2
+  10067 www-data  20   0 1932640   4724   3072 S   0,0   0,0   0:00.00 apache2
+  10068 www-data  20   0 1998176   4596   3072 S   0,0   0,0   0:00.00 apache2
+  10179 www-data  20   0    3736   1412   1280 S   0,0   0,0   0:00.77 htcacheclean
+  12400 razrs     20   0   21132  15520   4224 S   0,0   0,1   0:01.36 bash
+  12443 razrs     20   0 2380968  62848  50816 S   0,0   0,4   0:00.08 Web Content
+  12446 razrs     20   0 2380964  63360  51328 S   0,0   0,4   0:00.08 Web Content
+  12484 razrs     20   0 2380968  62712  50808 S   0,0   0,4   0:00.08 Web Content
+  13079 razrs     20   0  388720   9216   8064 S   0,0   0,1   0:00.01 gvfsd-network
+  13097 razrs     20   0  316824   9088   8064 S   0,0   0,1   0:00.01 gvfsd-dnssd
+  13793 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-kblockd
+  13842 root      20   0 1467620  31736  19584 S   0,0   0,2   0:01.50 snapd
+  15217 root      20   0       0      0      0 I   0,0   0,0   0:00.75 kworker/u256:3-events_power_e+
+  15381 razrs     20   0 2873364  70564  53892 S   0,0   0,4   0:00.76 gjs
+  15744 root      20   0       0      0      0 I   0,0   0,0   0:00.29 kworker/1:0-cgwb_release
+  15992 root      20   0       0      0      0 I   0,0   0,0   0:00.20 kworker/u256:2-events_power_e+
+  16030 root      20   0       0      0      0 I   0,0   0,0   0:00.14 kworker/3:1-cgroup_destroy
+  16035 root      20   0       0      0      0 I   0,0   0,0   0:00.95 kworker/2:1-events
+  16048 root      20   0       0      0      0 I   0,0   0,0   0:00.40 kworker/1:2-events
+  16083 razrs     20   0 1005264  81812  52760 S   0,0   0,5   0:02.40 nautilus
+  16144 razrs     20   0  314896   8704   7808 S   0,0   0,1   0:00.01 gvfsd-recent
+  16226 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/2:2-rcu_par_gp
+  16299 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1-events
+  16304 root      20   0       0      0      0 I   0,0   0,0   0:00.17 kworker/u256:0-events_unbound
+  16308 root      20   0       0      0      0 I   0,0   0,0   0:00.10 kworker/3:0-events
+  16408 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:1-events_unbound
+  16415 razrs     20   0    8388   2304   2176 S   0,0   0,0   0:00.00 script
+  16416 razrs     20   0    9972   3584   3328 S   0,0   0,0   0:00.00 bash
+  16418 razrs     20   0    9972   1688   1536 S   0,0   0,0   0:00.00 bash
+  16419 razrs     20   0    8372   1920   1920 S   0,0   0,0   0:00.00 sleep
+
+Script done on 2023-11-21 16:49:47+01:00 [COMMAND_EXIT_CODE="0"]
