@@ -1,0 +1,505 @@
+Script started on 2023-11-21 17:31:30+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="102" LINES="46"]
+=== status nginx ===
+[sudo] password for razrs: 
+[?1h=[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[0;1;31m×[0m nginx.service - Nginx HTTP Server by Razrs[m
+     Loaded: loaded (/etc/systemd/system/nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2023-11-21 17:30:44 CET; 47s ago[m
+        CPU: 6ms[m
+[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:42 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+ноя 21 17:30:43 razrs nginx[20812]: nginx: [emerg] bind() to [::]:80 failed (98: Unknown error)[m
+ноя 21 17:30:44 razrs nginx[20812]: nginx: [emerg] still could not bind()[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+ноя 21 17:30:44 razrs systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start A high performance web server and a reverse proxy s[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K55[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K55[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K55[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[K[[[K66[K~~[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+ice; enabled; vendor preset: enabled)[m
+[0;1;31m[0m023-11-21 17:30:44 CET; 47s ago[m
+[m
+[m
+bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+bind() to [::]:80 failed (98: Unknown error)[m
+bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+bind() to [::]:80 failed (98: Unknown error)[m
+bind() to 0.0.0.0:80 failed (98: Unknown error)[m
+bind() to [::]:80 failed (98: Unknown error)[m
+still could not bind()[m
+[0;1;39m[0;1;31m[0;1;39mntrol process exited, code=exited, status=1/FAILURE[0m[m
+[0;1;38;5;185m[0;1;39m[0;1;38;5;185miled with result 'exit-code'.[0m[m
+[0;1;31m[0;1;39m[0;1;31m high performance web server and a reverse proxy server.[0m[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0;1;31m[0;1;39m[0m[m
+[m
+[0;1;31m[0;1;39m[0;1;31mrver.[0m[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-15/15 (END)[27m[K[K[?1l>
+Script done on 2023-11-21 17:31:41+01:00 [COMMAND_EXIT_CODE="130"]
