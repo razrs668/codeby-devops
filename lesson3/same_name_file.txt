@@ -1,1 +1,6 @@
+
+Content for same_name_file in branch_c
+Content for same_name_file in branch_b
+
 Content for same_name_file in branch_a
+
